@@ -13,6 +13,10 @@ export const item_list = [
     item_image: earphones,
   },
   {
+    item_name: "Thumb gloves",
+    item_image: thumbGloves,
+  },
+  {
     item_name: "Earbud",
     item_image: earbuds,
   },
@@ -31,13 +35,5 @@ export const item_list = [
   {
     item_name: "Mobile glass",
     item_image: glass,
-  },
-  {
-    item_name: "Mobile cover",
-    item_image: cover,
-  },
-  {
-    item_name: "Thumb gloves",
-    item_image: thumbGloves,
   },
 ];
