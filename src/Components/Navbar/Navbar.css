@@ -1,5 +1,5 @@
 .navbar {
-  padding: 15px 0px;
+  /* padding: 30px 0px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +12,7 @@
   display: flex;
   list-style: none;
   gap: 20px;
-  color: red;
+  color: #262165;
   font-size: 18px;
 }
 .navbar-right {
@@ -22,21 +22,36 @@
 }
 
 .navbar button {
-  background: red;
   font-size: 16px;
-  color: yellow;
-  border: 1px solid black;
+  color: #262165;
+  border: 1px solid #262165;
   padding: 10px 30px;
   border-radius: 50px;
   cursor: pointer;
   transition: 0.3s;
+  background-color: #262165;
+  color: white;
 }
 
-.navbar button:hover{
-    background-color: #fff4f2;
+.navbar button:hover {
+  background-color: white;
+  color: #262165;
 }
 
-.navbar .active{
-    padding-bottom: 2px;
-    border-bottom: 2px solid yellow;
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #262165;
+}
+.navbar-search-icon {
+  position: relative;
+}
+
+.navbar-search-icon .dot {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #262165;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
 }

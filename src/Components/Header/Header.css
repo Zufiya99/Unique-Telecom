@@ -1,0 +1,42 @@
+.header{
+    height: 30vw;
+    /* width: 85vw; */
+    /* margin: 20px auto; */
+    background: url("/public/Images/Mobile\ banner.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 50px;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 15%;
+    right: 2vw;
+    animation: fadeIn 3s;
+}
+.header-contents h2{
+    font-weight: 500;
+    color: whitesmoke;
+    text-shadow:  black 1px 0 10px;
+    font-size: max(4.5vw, 22px);
+}
+.header-contents p{
+    color: wheat;
+    text-shadow:  black 1px 0 10px;
+    font-size: 1vw;
+}
+
+.header-contents button{
+    border: none;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    font-size: 15px;
+    padding: 7px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
